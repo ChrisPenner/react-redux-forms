@@ -1,0 +1,32 @@
+{
+  "name": "redux-forms",
+  "version": "0.0.1",
+  "description": "Forms... in redux",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --port 3000"
+  },
+  "keywords": [
+    "redux",
+    "forms"
+  ],
+  "author": "Chris Penner",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
